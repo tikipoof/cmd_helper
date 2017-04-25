@@ -1,0 +1,4 @@
+ansible-playbook playbooks/initialsetup/jump_initial.yml -i hosts -l new --ask-sudo-pass --ask-pass
+ -l new : appliquer le playbook uniquement sur les hosts [new]
+ --ask-pass : demander le mot de passe du user ssh (si auth login/password)
+

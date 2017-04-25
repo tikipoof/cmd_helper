@@ -1,0 +1,18 @@
+Dans le rep de travail
+git init
+git status
+
+Ajouter des fichiers au repo
+git add nom_fichier
+
+Commiter les changements
+git commit -m "Initialisation"
+
+
+Lier le repo avec github
+git remote add origin https://github.com/tikipoof/vdc_scripts.git
+git remote -v
+
+Pusher les modifs sur github
+git push --set-upstream origin master
+
