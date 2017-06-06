@@ -1,3 +1,8 @@
+Configuration
+git config --global user.name "tikipoof"
+git config --global user.email "nono_99_fr@yahoo.fr"
+
+
 Dans le rep de travail
 git init
 git status
@@ -7,6 +12,7 @@ git add nom_fichier
 
 Commiter les changements
 git commit -m "Initialisation"
+git commit -am "Modification"
 
 
 Lier le repo avec github
@@ -15,4 +21,6 @@ git remote -v
 
 Pusher les modifs sur github
 git push --set-upstream origin master
+
+
 
